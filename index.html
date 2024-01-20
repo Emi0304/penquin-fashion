@@ -8,12 +8,12 @@
 </head>
 <body>
     <header class=" bg-amber-100">
-       <div class="container m-auto p-14">
+       <div class="container m-auto p-6 md:p-8 lg:p-14">
         <nav class="flex justify-between mb-10 ">
             <div>
                 <img class="w-48" src="icons/logo.png" alt="">
             </div>
-            <div>
+            <div class="hidden md:visibility">
                 <a class="mr-4 text-slate-600" href="#">Home</a>
                 <a class="mr-4 text-slate-600" href="#">Product</a>
                 <a class="mr-4 text-slate-600 " href="#">About us</a>
@@ -21,11 +21,11 @@
 
             </div>
         </nav>
-        <div class="flex justify-between items-center">
+        <div class="flex flex-col md:flex-row justify-between items-center">
             <div >
-                <h1 class="text-7xl text-yellow-400 mb-6">Be the Penguins
+                <h1 class="text-4xl lg:text-7xl text-yellow-400 mb-6">Be the Penguins
                    <br> <span class="text-gray-600">of Winter</span></h1>
-                <p class="text-inherit w-96 mb-6">Lorem Ipsum is simply dummy text of the printing 
+                <p class="text-inherit w-80 md:w-96 mb-6">Lorem Ipsum is simply dummy text of the printing 
                     and typesetting industry.</p>
                 <button class="px-10 py-4 text-white rounded-md bg-gradient-to-r from-lime-600 to-lime-400">BUY NOW</button>
 
@@ -36,11 +36,11 @@
         </div>
        </div>
     </header>
-    <main class="container m-auto p-14">
+    <main class="container m-auto p-6 md:p-8 lg:p-14">
         <div>
             <h1 class="text-5xl mb-6">W0Man Jacket</h1>
-            <div class="grid grid-cols-3 gap-4 my-20 ">
-                <div class="drop-shadow-md px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 my-20 ">
+                <div class="drop-shadow-md px-0 lg:px-8">
                     <img class="  rounded-md bg-slate-100 p-10 mb-7" src="images/jacket-1.png" alt="">
                     <h1 class="text-2xl mb-3">Yellow Coat Jacket </h1>
                     <p class="text-inherit w-64 mb-6">Lorem Ipsum is simply dummy text of the 
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="drop-shadow-md px-8">
+                <div class="drop-shadow-md px-0 lg:px-8">
                     <img class="  rounded-md bg-slate-100 p-10 mb-7" src="images/jacket-2.png" alt="">
                     <h1 class="text-2xl mb-3">Yellow Coat Jacket </h1>
                     <p class="text-inherit w-64 mb-6">Lorem Ipsum is simply dummy text of the 
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="drop-shadow-md px-8">
+                <div class="drop-shadow-md px-0 lg:px-8">
                     <img class="  rounded-md bg-slate-100 p-10 mb-7" src="images/jacket-3.png" alt="">
                     <h1 class="text-2xl mb-3">Yellow Coat Jacket </h1>
                     <p class="text-inherit w-64 mb-6">Lorem Ipsum is simply dummy text of the 
